@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const tpoints = {};
-const prefix = "2"
+const prefix = "//"
 const vpoints = {};
 const jimp = require("jimp");
 const client = new Discord.Client();
@@ -13,17 +13,14 @@ client.on("ready", () => {
   );
   let statuses = [
    
-    `Joker Staff`,
-    `MrTiGER`,
-    `100k Member soon`,
-    `MrTiger `,
-    `Ilove ❤ `,
+   
+   
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(STREAMING, {      
     type:"Playing", 
-    url: "https://www.twitch.tv/faith"
+    url: "https://discord.gg/jDdkZjFa9k"
     });
   }, 2000);
 });
