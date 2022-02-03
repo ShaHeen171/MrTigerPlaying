@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const tpoints = {};
-const prefix = "2"
+const prefix = "1"
 const vpoints = {};
 const jimp = require("jimp");
 const client = new Discord.Client();
@@ -13,11 +13,11 @@ client.on("ready", () => {
   );
   let statuses = [
    
-    `Joker Staff`,
-    `MrTiGER`,
-    `100k Member soon`,
-    `MrTiger `,
-    `Ilove ❤ `,
+    `Dev`,
+    `ShaHeen_`,
+    `Duck Security`,
+    `ShaHeen_ `,
+    `Best BOT `,
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -28,4 +28,4 @@ client.on("ready", () => {
   }, 2000);
 });
 
-client.login("");
+client.login("OTA4NjIzODcyMDQ2MjkzMDAy.YY4b7A.H37mzsggYh8SlSSD72RxKbD0BWo");
