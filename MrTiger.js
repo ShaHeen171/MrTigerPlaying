@@ -28,4 +28,4 @@ client.on("ready", () => {
   }, 2000);
 });
 
-client.login("");
+client.login("OTA4NjIzODcyMDQ2MjkzMDAy.YY4b7A.xnKFpUIsC2Du8PZOAJCO68xdhQw");
